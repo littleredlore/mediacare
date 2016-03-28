@@ -1,0 +1,120 @@
+div.header{
+	height:40px;
+}
+h1.header{
+	font-size: 16px;
+	padding-left:14%;
+	padding-top:10px;
+	margin:0;
+}
+div.menu{
+	width:100%;
+	height:55px;
+	top:40px;
+}
+div.menu_outer{
+	float: left;
+	width:14%;
+	height: 100%;
+}
+div.menu_inner,  div.menu_innerSub{
+	height:100%;
+	padding:0;
+	transition: all 300ms ease-in-out;
+}
+h4{
+	padding:0;
+	padding-top: 10px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 12px;
+}
+h5{
+	padding:0;
+	margin:0 auto;
+	text-align: center;
+	font-size: 8px;
+	font-weight: 400;
+}
+div.sub_menu{
+	position:absolute;
+	transition: all 300ms ease-in-out;
+	width:170px;
+	background-color: #53BCEB;
+	display:none;
+}
+div.menu_outer div.sub_menu{
+	left: 0px;
+	top:55px;
+}
+
+div.sub_menu ul{
+	margin:0;
+	padding:5px;
+	list-style: none;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+}
+div.sub_menu li, div.sub_menu a:visited{
+	padding:5px 0px;
+	color:#333;
+}
+div#current div.menu_inner, div.menu_outer:hover div.menu_inner{
+	width:90%;
+	margin: 0 5%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius-: 5px;
+	border-radius: 5px;
+}
+div.content_wrapper{
+	top:95px;
+	left:0px;
+	margin:0;
+	padding: 15px 10px;
+	width:100%;
+}	
+div.module_header{
+	margin:0;
+	padding:0;
+	background-color: #53BCEB;
+	width:100%;
+	height:35px;
+}
+h2.module_header{
+	margin:0;
+	padding-left:10px;
+	padding-top:10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	display: inline;
+	float:left;
+}
+
+div.module_double, div.module_wideFull, div.module_single{
+	width:96%;
+}
+button.onBlue{
+	margin-left:10px;
+}
+div.header_buttons{
+	padding-top:4px;
+	padding-right:10px;
+}
+input[type=text].edit_field{
+	width:95%;
+}
+
+div.tvTog, div.groupTog{
+	height:25px;
+	margin-top: 5px;
+}
+div.tvTog h2,div.groupTog h2{
+	margin-top:3px;
+	font-size: 14px;
+}
+div.headerButtons button{
+	float:right;
+}

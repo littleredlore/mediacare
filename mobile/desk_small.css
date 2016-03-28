@@ -1,0 +1,46 @@
+div.module_small{
+	width:31%;
+	height:200px;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+div.module_content li {
+	margin:0;
+	padding-bottom:14px;
+	line-height: 16px;
+	font-size: 14px;
+}
+span.notification_number{
+	padding-right:15px;
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color:#53BCEB;
+}
+div.module_wideFixed{
+	width:97%;
+}
+div.module_single{
+	width:31%;
+	margin-right:2%;
+}
+div.module_double{
+	width: 64%;
+	margin-bottom:2%;
+}
+div.media{
+	width:47%;
+	margin-right: 2%;
+	padding-right:0;
+}
+div.media div.module_half {
+	width:100%;
+}
+div.server{
+	width:47%;
+	margin:0;
+}
+div.module_half {
+	width: 47%;
+ }
